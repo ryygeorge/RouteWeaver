@@ -1,81 +1,82 @@
-# Project_RouteWeaver
- # 🧭 RouteWeaver
+# 🧭 RouteWeaver — Intelligent Trip Planning System
 
-**RouteWeaver** is an intelligent, scalable, and personalized itinerary manager designed to simplify road trip planning. Built with a minimal and clutter-free interface, it helps users plan efficient, customized routes without being overwhelmed by excessive information.  
+RouteWeaver is a smart, scalable, and user-friendly itinerary planning application designed to simplify road-trip planning.  
+It enables users to create optimized routes, explore curated travel packages, and receive personalized suggestions — all within a clean and intuitive interface.
 
 ---
 
 ## 🚀 Overview
 
-RouteWeaver redefines travel planning through intelligent automation and personalization.  
-It allows users to:
-- Create and save **custom travel routes**.
-- Explore **smart travel packages** near their location.
-- Get **personalized suggestions** through keywords or preferences.
-- Use **SmartVacay**, an AI-driven feature that analyzes work calendars to suggest the best travel dates.
+RouteWeaver enhances modern travel planning through automation and personalization.  
+With RouteWeaver, users can:
+
+- Build and save **custom travel routes**
+- Explore **ready-made travel packages**
+- Get **AI-driven recommendations** based on interests and keywords
+- Use **SmartVacay**, an intelligent feature that analyzes personal calendars to suggest ideal travel dates
 
 ---
 
 ## 🧩 Key Features
 
-- **Custom Route Planning:** Build personalized itineraries with real-time optimization using the Google Maps API.  
-- **SmartVacay:** Smart recommendations based on your work calendar for balanced work-leisure travel.  
-- **Dynamic Suggestions:** Filter destinations by interest — nature, food, history, adventure, and more.  
-- **Saved Routes:** View, manage, and relaunch previous trips.  
-- **Travel Packages:** Pre-built optimized routes for quick getaways.  
-- **Secure Login & Data Storage:** Managed via Node.js authentication and MongoDB.
+- **Custom Route Creator:** Generate optimized travel routes using Google Maps data  
+- **SmartVacay (AI-Assisted):** Suggests travel windows by reading work or personal calendars  
+- **Dynamic Suggestions:** Filter and discover destinations based on interests like nature, food, adventure, etc.  
+- **Saved Trips:** View, manage, and update previously created routes  
+- **Travel Packages:** Choose from pre-built optimized travel plans  
+- **Secure Authentication:** Login and user data handled with Node.js + MongoDB  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js (with Vite)
-- **Backend:** Node.js + Express.js
-- **Database:** MongoDB
-- **APIs:** Google Maps API, OSRM API, Gemini API, Google Calendar API
+- **Frontend:** React.js (Vite)  
+- **Backend:** Node.js + Express.js  
+- **Database:** MongoDB  
+- **APIs:** Google Maps API, OSRM API, Gemini API, Google Calendar API  
 
 ---
 
 ## 🖼️ Application Screens
 
-### 🏠 Home Page
-The entry point showcasing RouteWeaver’s minimal and elegant design.
+### 🏠 Home Page  
+Minimal and welcoming interface for users.  
 ![Home Page](images/home.jpg)
 
 ---
 
-### 🔐 Login / Signup
-Secure authentication and user access.
+### 🔐 Login / Signup  
+Secure user login and account creation.  
 ![Login Page](images/login.jpg)
 
 ---
 
-### 🗺️ Query Page
-Generate custom routes based on your interests, start/destination, and trip preferences.
+### 🗺️ Query Page  
+Generate routes based on travel preferences and destinations.  
 ![Query Page](images/querypage.jpg)
 
 ---
 
-### 💾 Saved Routes
-Access your previously planned or completed journeys.
+### 💾 Saved Routes  
+Access and manage your previously created routes.  
 ![Saved Routes](images/savedroutes.jpg)
 
 ---
 
-### 🌴 SmartVacay
-AI-driven vacation planner that syncs with your calendar to suggest travel windows.
+### 🌴 SmartVacay  
+AI-driven vacation planner synced with your calendar.  
 ![SmartVacay](images/smartvacay.jpg)
 
 ---
 
-### 💡 Suggestions Page
-Get intelligent recommendations for places to visit based on interest keywords.
+### 💡 Suggestions Page  
+Get personalized place suggestions based on interest keywords.  
 ![Suggestions Page](images/suggestion.jpg)
 
 ---
 
-### ✈️ Travel Packages
-Explore pre-built optimized travel packages near your current location.
+### ✈️ Travel Packages  
+Browse optimized travel packages near your current location.  
 ![Travel Packages](images/travelpackages.jpg)
 
 ---
@@ -86,16 +87,16 @@ Explore pre-built optimized travel packages near your current location.
 # Clone the repository
 git clone https://github.com/ryygeorge/Project_RouteWeaver
 
-#Start the backend services
+# Start backend services
 cd Backend
 npm install
 npm start
 
-# Navigate into the project directory
+# Navigate to the frontend directory
 cd RouteWeaver
 
-# Install dependencies
+# Install frontend dependencies
 npm install
 
-# Run the development server
+# Run development server
 npm run dev
