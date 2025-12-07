@@ -84,7 +84,7 @@ Explore pre-built optimized travel packages near your current location.
 
 ```bash
 # Clone the repository
-git clone https://github.com/joeljones29/Project_RouteWeaver
+git clone https://github.com/ryygeorge/Project_RouteWeaver
 
 #Start the backend services
 cd Backend
